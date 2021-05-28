@@ -1,0 +1,278 @@
+.main{
+	width:1280px;
+	margin:0 auto;
+	background:url(../img/sota5.jpg);
+}
+
+.head{
+	background:#F29D00;
+	display:flex;
+	justify-content:space-between;
+	border:3px solid #B9C3DA;
+	border-radius:15px;
+	
+}
+
+.i{
+	margin:auto 10px;
+}
+
+.aaa{
+	margin-left:80px;
+}
+
+.head1{
+	display:flex;
+	align-items:center;
+	
+}
+
+.head1 a{
+	display:flex;
+	justify-content:space-between;
+	margin-right:25px;
+	text-decoration:none;
+	background:#e68c07;
+	width:110px;
+	height:30px;
+	margin-top:5px;
+	border:3px solid #734a0e;
+	border-radius:12px;
+}
+
+.head1 a:hover{
+	background:#734a0e;
+	transform:scale(1.15);
+	transition:0.8s;
+}
+
+.head1 p:hover{
+	color:#d0ff00
+}
+
+.head1 p{
+	font-family:"Times New Roman";
+	font-size:25px;
+	margin:0 auto;
+	color:#e9f022;
+}
+
+.content{
+	 filter: alpha(Opacity=70);
+}
+
+.wrapper{
+	margin:5 auto;
+	position:relative;
+	height:620px;
+}
+
+@keyframes fade{
+	0% {opacity: 0;}
+	10% {opacity: 1;}
+	20% {opacity: 1;}
+	30% {opacity: 1;}
+	40% {opacity: 0;}
+	50% {opacity: 0;}
+	60% {opacity: 0;}
+	70% {opacity: 0;}
+	80% {opacity: 0;}
+	90% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+.wrapper img{
+	opacity:0;
+	position:absolute;
+	animation-name: fade;
+	animation-duration:30s;
+	animation-iteration-count: infinite;
+	border:5px solid #B9C3DA;
+	border-radius:12px;
+	left:105px;
+}
+
+.wrapper img:nth-child(1){
+	animation-delay: 0s;
+}
+
+.wrapper img:nth-child(2){
+	animation-delay: 4s;
+}
+
+.wrapper img:nth-child(2){
+	animation-delay: 8s;
+}
+
+.wrapper img:nth-child(3){
+	animation-delay: 12s;
+}
+
+.wrapper img:nth-child(4){
+	animation-delay: 16s;
+}
+
+.wrapper img:nth-child(5){
+	animation-delay: 20s;
+}
+
+.wrapper img:nth-child(6){
+	animation-delay: 24s;
+}
+
+.wrapper img:nth-child(7){
+	animation-delay: 28s;
+}
+
+.content5{
+	display:flex;
+	justify-content:space-between;
+	height:250px;
+	margin-top:30px;
+}
+
+.content1{
+	width:300px;
+	background:#F29D00;
+	border:2px solid #f5cd4c;
+	border-radius:10px;
+	margin-left:35px;
+	height:200px;
+}
+
+.content2{
+	width:300px;
+	background:#F29D00;
+	border:2px solid #f5cd4c;
+	border-radius:10px;
+	height:200px;
+}
+
+.content3{
+	width:300px;
+	background:#F29D00;
+	border:2px solid #f5cd4c;
+	border-radius:10px;
+	margin-right:35px;
+	height:200px;
+}
+
+.content5 p{
+	font-size:20px;
+	align-items:center;
+	margin-left:5px;
+	margin-top:50px;
+}
+
+.content5 p span{
+	margin-left:100px;
+	margin-top:20px;
+	font-weight:bold;
+}
+
+.content5 div:hover{
+	transform:scale(1.2);
+	transition:0.8s;
+}
+
+.p{
+	font-size:60px;
+	font-weight:bold;
+	background:#F29D00;
+	color:#fff;
+	height:80px;
+	padding:20px 0px 20px 430px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:3px solid #B9C3DA;
+	border-radius:15px;
+}
+
+.nana{
+	height:200px;
+}
+
+.vv{
+	width:350px;
+	background-color:#131313;
+	border:5px solid #B9C3DA;
+	border-radius:12px;
+}
+
+.nana{
+	display:flex;
+	justify-content:space-between;
+	background:url(../img/pchel.jpg);
+	color:#fff;
+	font-family:sans-serif;
+	padding:80px 90px 80px 90px;
+	border:3px solid #B9C3DA;
+	border-radius:15px;
+	margin-top:5px;
+	height:340px;
+}
+.nan
+{
+	margin-top:20px;
+}
+.nana h1{
+	font-family:"Courier New";
+	font-size:35px;
+	color:#261b01;
+	margin-bottom:70px;
+}
+.nana p{
+	color:#261b01;
+	font-size:20px;
+}
+input[type="text"]{
+	color:#261b01;
+	width:300px;
+	font-family:sans-serif;
+	font-size:15px;
+	border:none;
+	padding:20px;
+	margin-bottom:10px;
+	background-color:#f08205;
+	border-radius:15px;
+}
+ .buttom-form span{
+	margin-left:5px;
+	color:#fff;
+}
+.buttom-form { 
+	display:flex;
+	width:260px;
+	height:70px;
+	background:#ffaf03;
+	border:none;
+	border-radius:35px;
+	justify-content:space-around;
+	align-items:center;
+	margin-top:30px;
+}
+
+.buttom-form:hover {
+	background:#ffea03;
+}
+
+.buttom-form span{
+	color:#ffffff;
+	font-size:23px;
+}
+
+.footer{
+	height:50px;
+	border:3px solid #B9C3DA;
+	border-radius:15px;
+}
+
+.footer p{
+	display:flex;
+	align-items:center;
+	margin-left:380px;
+	color:#fff;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:18px;
+}

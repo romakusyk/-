@@ -1,0 +1,77 @@
+.main{
+	width:1280px;
+	margin:0 auto;
+	background:url(../img/sota5.jpg);
+}
+
+.head{
+	display:flex;
+	justify-content:space-between;
+	background-color:#F29D00;
+	height:100px;
+	align-items:center;
+	border:3px solid #B9C3DA;
+	border-radius:12px;
+	margin-bottom:2px;
+}
+
+.head a{
+	margin-left:15px;
+}
+
+.a{
+	font-size:50px;
+	font-weight:bold;
+	color:#fff;
+	margin-right:50px;
+}
+
+.content{
+	display:flex;
+	border:4px solid #f5a207;
+	margin-top:3px;
+	border-radius:15px;
+}
+
+.content1{
+	margin-left:85px;
+	display:flex;
+	align-items:center;
+}
+
+.content1 p{
+	color:#595454;
+	font-size:35px;
+}
+
+.content img{
+	border:2px solid #B9C3DA;
+	border-radius:12px;
+	margin:10px;
+}
+
+.content1 p span{
+	display:block;
+	margin-bottom:25px;
+	border-bottom:3px solid #B3C1DA;
+	font-weight:bold;
+	color:#fff;
+}
+
+.footer{
+	height:50px;
+	border:2px solid #B9C3DA;
+	border-radius:15px;
+	margin-top:3px;
+	background-color:#F29D00;
+}
+
+.footer p{
+	display:flex;
+	align-items:center;
+	margin-left:380px;
+	color:#fff;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:18px;
+}
