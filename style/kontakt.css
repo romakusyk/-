@@ -50,7 +50,7 @@
 	display:flex;
 	align-items:center;
 	font-size:35px;
-	color:#fff;
+	color:#542a00;
 	font-weight:bold;
 	
 }
@@ -78,8 +78,4 @@
 
 .cart{
 	margin-left:10px;
-}
-
-.bb{
-	margin-right:25px;
 }
